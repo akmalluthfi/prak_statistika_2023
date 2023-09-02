@@ -19,5 +19,5 @@ for (nilai in nilai_angka) {
     nilai_huruf <- c(nilai_huruf, "A")
   }
 }
-
-print(nilai_huruf)
+cat("Nilai Sebelum : ", nilai_angka, "\n")
+cat("Nilai Sesudah : ", nilai_huruf, "\n")
