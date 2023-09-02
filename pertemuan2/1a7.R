@@ -1,7 +1,7 @@
 # No 7 . Program Ganjil-Genap
 value <- 4
 if (value %% 2 == 0) {
-  print("Genap")
+  cat(value, "adalah bilangan Genap", "\n")
 } else {
-  print("Ganjil")
+  cat(value, "adalah bilangan Ganjil", "\n")
 }
