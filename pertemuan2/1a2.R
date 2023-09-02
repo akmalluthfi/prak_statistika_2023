@@ -3,14 +3,14 @@ a <- c(2, 4, 7, 2, 5, 2, 3, 4, 2, 3)
 b <- c(3, 5, 5, 3, 5, 7, 3, 6, 8, 7)
 
 # Penjumlahan
-print(a + b)
+cat("Hasil penjumlahan a*b :", a + b, "\n")
 # Pengurangan
-print(a - b)
+cat("Hasil pengurangan a-b :", a - b, "\n")
 # Perkalian
-print(a * b)
+cat("Hasil perkalian a*b :", a * b, "\n")
 # Pembagian
-print(a / b)
+cat("Hasil pembagian a/b :", a / b, "\n")
 # Sisa Hasil Bagi
-print(a %% b)
+cat("Hasil sisa bagi a&&b :", a %% b, "\n")
 # Pangkat
-print(a^b)
+cat("Hasil pangkat a^b :", a^b, "\n")
