@@ -149,3 +149,27 @@ for (nilai in nilai_angka) {
 }
 
 print(nilai_huruf)
+
+# No 10 . Program menghitung rata-rata, variansi, simpangan baku tanpa fungsi bawaan
+
+# mean
+# semua data / jumlah data
+mean_x <- sum(dat_x) / length(dat_x)
+print(mean_x)
+
+# variansi
+# cari mean
+# hasil = (tiap data - mean)^2
+# jumlah seluruh hasil / jumlah data
+
+# simpangan baku
+# akar kuadrat dari varians
+
+# nilai korelasi
+# hitung rata rata data x
+# hitung rata rata data y
+# hitung kuadrat dari tiap tiap item (x - mean(x))^2
+
+# loop data_x,
+# tiap tiap x dari loop lakukan temp <- (x - mean(x))^2
+# jumlah hasil
