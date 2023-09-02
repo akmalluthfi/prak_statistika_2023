@@ -8,11 +8,3 @@ print(paste("Rata - rata data Y : ", mean(dat_y)))
 print(paste("Variansi data X : ", var(dat_x)))
 print(paste("Variansi data Y : ", var(dat_y)))
 print(paste("Korelasi Data X dan Y : ", cor(dat_x, dat_y)))
-
-# No 7 . Program Ganjil-Genap
-value <- 4
-if (value %% 2 == 0) {
-  print("Genap")
-} else {
-  print("Ganjil")
-}
