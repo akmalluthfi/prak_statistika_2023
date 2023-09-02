@@ -3,14 +3,14 @@ b <- 4
 
 # No. 1 : Operasi Aritmatika
 # Penjumlahan
-print(a + b)
+cat("Hasil penjumlahan", a, "+", b, ":", a + b, "\n")
 # Pengurangan
-print(a - b)
+cat("Hasil pengurangan", a, "-", b, ":", a - b, "\n")
 # Perkalian
-print(a * b)
+cat("Hasil perkalian", a, "*", b, ":", a * b, "\n")
 # Pembagian
-print(a / b)
+cat("Hasil pembagian", a, "/", b, ":", a / b, "\n")
 # Sisa Hasil Bagi
-print(a %% b)
+cat("Hasil sisa bagi", a, "%%", b, ":", a %% b, "\n")
 # Pangkat
-print(a^b)
+cat("Hasil pangkat", a, "^", b, ":", a^b, "\n")
